@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import About from "./Components/About";
 import Parallex1 from "./Components/Parallex1";
 import Service from "./Components/Service";
+import Contact from "./Components/Contact";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Parallex1 />
       <Service />
+      <Contact />
     </div>
   );
 }
