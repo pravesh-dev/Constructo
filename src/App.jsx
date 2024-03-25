@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Parallex1 from "./Components/Parallex1";
 import Service from "./Components/Service";
 import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -17,6 +18,7 @@ function App() {
       <Parallex1 />
       <Service />
       <Contact />
+      <Projects />
     </div>
   );
 }

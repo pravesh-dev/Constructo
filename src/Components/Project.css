@@ -1,0 +1,16 @@
+.container {
+  perspective: 1200px;
+}
+.container:hover > .card {
+  transform: rotateY(180deg);
+}
+.card {
+  transform-style: preserve-3d;
+}
+.front,
+.back {
+  backface-visibility: hidden;
+}
+.back {
+  transform: rotateY(180deg);
+}
