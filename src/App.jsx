@@ -7,6 +7,7 @@ import Parallex1 from "./Components/Parallex1";
 import Service from "./Components/Service";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
+import Manager from "./Components/Manager";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -19,6 +20,7 @@ function App() {
       <Service />
       <Contact />
       <Projects />
+      <Manager/>
     </div>
   );
 }
