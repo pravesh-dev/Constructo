@@ -79,7 +79,7 @@ function Manager() {
           return (
             <SwiperSlide
               key={index}
-              className=" flex gap-1 flex-col items-center p-2"
+              className=" flex gap-1 flex-col pt-3 items-center p-2"
             >
               <img className="w-full" src={item.image} alt="" />
               <h2 className="text-black mt-5 text-2xl font-extralight tracking-wider hover:text-primaryCol cursor-pointer">

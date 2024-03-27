@@ -8,6 +8,7 @@ import Service from "./Components/Service";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
 import Manager from "./Components/Manager";
+import Footer from "./Components/Footer";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -20,7 +21,8 @@ function App() {
       <Service />
       <Contact />
       <Projects />
-      <Manager/>
+      <Manager />
+      <Footer />
     </div>
   );
 }

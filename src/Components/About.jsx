@@ -20,7 +20,7 @@ function About() {
           correlating that were all involved in completing each separate
           project, then our productivity is immense!
         </p>
-        <button className="uppercase px-8 py-4  bg-primaryCol mt-16">
+        <button className="uppercase px-8 py-4  bg-primaryCol mt-16 hover:bg-black duration-300 rounded-sm">
           Contact Us
         </button>
       </div>
